@@ -1,0 +1,20 @@
+.certificate {
+    margin-bottom: 1em;
+
+    .certificate-title {
+        font-weight: 500;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .certificate-completion {
+        font-size: .85em;
+    }
+
+    .certificate-provider {
+        font-size: .9em;
+    }
+}

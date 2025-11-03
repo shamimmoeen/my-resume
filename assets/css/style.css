@@ -1,0 +1,130 @@
+.header .full-name {
+  font-size: 1.2em;
+}
+.header .contact-details {
+  font-size: 0.85em;
+  color: rgba(0, 0, 0, 0.9);
+}
+.header .contact-details .line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.header .contact-details .contact-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.header .contact-details .contact-item a {
+  color: inherit;
+}
+
+.professional-summary p {
+  font-size: 0.85em;
+}
+
+.experience .employment {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+.experience .employment .row {
+  display: flex;
+  justify-content: space-between;
+}
+.experience .employment .employment-date {
+  display: flex;
+  gap: 5px;
+}
+.experience .employment .employment-company {
+  font-weight: 500;
+}
+.experience .employment .employment-job-title {
+  font-size: 0.9em;
+}
+.experience .employment .employment-date {
+  font-size: 0.85em;
+}
+.experience .employment .employment-description {
+  font-size: 0.85em;
+}
+.experience .entry {
+  margin-bottom: 1em;
+}
+.experience .entry .split {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.25em;
+}
+.experience .entry .split .company {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.experience .entry .split .position {
+  font-weight: 400;
+  font-size: 1.3em;
+}
+
+.skills span {
+  font-size: 0.85em;
+}
+.skills span:not(:last-child)::after {
+  content: ", ";
+}
+
+.project {
+  margin-bottom: 1em;
+}
+.project .project-title {
+  font-weight: 500;
+}
+.project .project-description {
+  font-size: 0.85em;
+}
+
+.certificate {
+  margin-bottom: 1em;
+}
+.certificate .certificate-title {
+  font-weight: 500;
+}
+.certificate .row {
+  display: flex;
+  justify-content: space-between;
+}
+.certificate .certificate-completion {
+  font-size: 0.85em;
+}
+.certificate .certificate-provider {
+  font-size: 0.9em;
+}
+
+.education {
+  margin-bottom: 1em;
+}
+.education .education-title {
+  font-weight: 500;
+}
+.education .row {
+  display: flex;
+  justify-content: space-between;
+}
+.education .education-date {
+  display: flex;
+  gap: 5px;
+}
+.education .education-date {
+  font-size: 0.85em;
+}
+.education .education-provider {
+  font-size: 0.9em;
+}
+
+.section {
+  margin-bottom: 2em;
+}
+.section > h2 {
+  font-size: 0.9em;
+  font-weight: 100;
+}
+/*# sourceMappingURL=style.css.map */

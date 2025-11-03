@@ -1,0 +1,56 @@
+The job responsibility is developing WordPress plugins and which I think I am good at and love to do.
+
+I released my first WordPress plugin in 2015. There are total 5 plugins in wordpress.org developed by me. I developed around 50 custom plugins for my Upwork clients.
+
+I was in love for PHP, it was easy to learn, this is why I started my career with it. In the beginning, I created a website using raw php without using any framework or library. While working for that project I became fluent in PHP and started to make custom WordPress themes.
+
+I started JavaScript since 2018 when I started learning React. I developed the backend ui for one of my plugin using React and Gutenberg components. 
+
+I learned HTML and CSS from w3schools. I always try to use HTML5 and CSS3 as they come out.
+
+I had to use PayPal Rest API to integrate the payment system in my first project that I developed using Raw PHP. I used Google Calendar API in a WordPress Booking Plugin to sync the appointments. I used Google Map API to show map, markers, used Distance Matrix API to calculate the distances and filter the places.
+
+I've been a part-time remote WordPress developer for a French client for the past 8 years. Additionally, I recently completed a successful 3-month contract as a full-time remote WordPress developer for Kings Crest Global in Spain.
+
+The most important things to consider for remote works as per mine are on-time communication, dedicated office space, self discipline. 
+=========
+Why do you think you're right fit for this position?
+The job responsibility is developing WordPress plugins and which I think I am good at and love to do.
+
+My passion for WordPress plugin development aligns perfectly with the responsibilities outlined in this role. My experience demonstrates this passion, with 5 plugins available on wordpress.org and over 50 custom plugins created for Upwork clients.
+
+Please explain your experience in WordPress plugin development.
+I released my first WordPress plugin in 2015. There are total 5 plugins in wordpress.org developed by me. I developed around 50 custom plugins for my Upwork clients.
+
+I've been building WordPress plugins since 2015. One of my plugins, 'WCAPF - WooCommerce Ajax Product Filter', has over 10,000 happy users and a great rating of 4.5 stars based on 39 reviews!  I also make sure my plugins follow the WordPress coding standards. 
+
+Please explain your experience in core PHP
+It was easy to learn, this is why I started my career with it. In the beginning, I created a website using raw php without using any framework or library. While working for that project I became fluent in PHP and helped me to start make custom WordPress themes.
+
+I started with PHP because it was easy to understand. To learn everything well, I built a whole website from scratch using just regular PHP code. This helped me become really good at the core parts of PHP, like working with databases and organizing code in a clean and structured way using Object-Oriented Programming. This strong foundation made it easy for me to move on to building custom WordPress themes and plugins.
+
+Please explain your experience in JavaScript
+I started JavaScript since 2018 when I started learning React. I developed the backend ui for one of my plugin using React and Gutenberg components.
+
+I started learning JavaScript in 2018, focusing on React development. I've used this knowledge to develop the backend UI for a plugin using React and Gutenberg components.
+
+Please explain your skills in frontend development (HTML& CSS)
+I learned HTML and CSS from w3schools. I always try to use HTML5 and CSS3 as they come out. I am good at bootstrap, used foundation, tailwind css frameworks in several projects.
+
+I learned HTML and CSS from w3schools and always try to use the latest standards like HTML5 and CSS3. I'm proficient in Bootstrap and have experience working with Foundation and Tailwind CSS frameworks in various projects. Additionally, I prioritize accessibility best practices in my code.
+
+Please explain your skills in API & webhook integration
+I had to use PayPal Rest API to integrate the payment system in my first project that I developed using Raw PHP. I used Google Calendar API in a WordPress Booking Plugin to sync the appointments. I used Google Map API to show map, markers, used Distance Matrix API to calculate the distances and filter the places.
+
+I'm comfortable integrating APIs to enhance website functionality. I used PayPal's REST API to integrate their payment system in one of my project. I've used Google Calendar's API in a WordPress booking plugin to automatically synchronize appointments. I have used Maps JavaScript API to display interactive maps with markers and implemented the Distance Matrix API to calculate distances and filter locations.
+
+I have experience to use a github webhook to deploy the updated codes automatically on a server.
+
+Do you have any remote work experience? What are the most important factors to consider while working remotely? 
+I've been a part-time remote WordPress developer for a French client for the past 8 years. Additionally, I recently completed a successful 3-month contract as a full-time remote WordPress developer for Kings Crest Global in Spain.
+
+As per mine the most important things to consider for remote work are on-time communication, dedicated office space, self discipline. 
+
+I've been successfully working remotely for the past 8 years.
+
+The most important things to consider for remote work are on-time communication, dedicated office space, self discipline.

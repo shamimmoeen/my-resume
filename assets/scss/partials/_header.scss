@@ -1,0 +1,26 @@
+.header {
+    .full-name {
+        font-size: 1.2em;
+    }
+
+    .contact-details {
+        font-size: .85em;
+        color: rgba(0, 0, 0, .9);
+
+        .line {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .contact-item {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+
+            a {
+                color: inherit;
+            }
+        }
+    }
+}
