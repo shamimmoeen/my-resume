@@ -1,0 +1,19 @@
+@import './variables';
+@import './mixins';
+
+@import './partials/header';
+@import './partials/summary';
+@import './partials/experience';
+@import './partials/skills';
+@import './partials/project';
+@import './partials/certificate';
+@import './partials/education';
+
+.section {
+    margin-bottom: 2em;
+
+    >h2 {
+        font-size: .9em;
+        font-weight: 100;
+    }
+}

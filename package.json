@@ -1,0 +1,23 @@
+{
+  "name": "my-resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "sass": "^1.71.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "puppeteer": "^22.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mainul Hassan Main",
+  "license": "ISC"
+}

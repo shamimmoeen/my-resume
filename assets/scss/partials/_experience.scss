@@ -1,0 +1,53 @@
+.experience {
+    .employment {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1em;
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .employment-date {
+            display: flex;
+            gap: 5px;
+        }
+
+        .employment-company {
+            font-weight: 500;
+        }
+
+        .employment-job-title {
+            font-size: .9em;
+        }
+
+        .employment-date {
+            font-size: .85em;
+        }
+
+        .employment-description {
+            font-size: .85em;
+        }
+    }
+
+    .entry {
+        margin-bottom: 1em;
+
+        .split {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: .25em;
+
+            .company {
+                font-weight: bold;
+                font-size: 1.2em;
+            }
+
+            .position {
+                font-weight: 400;
+                font-size: 1.3em;
+            }
+        }
+    }
+}

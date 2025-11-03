@@ -1,0 +1,11 @@
+.skills {
+    span {
+        font-size: .85em;
+
+        &:not(:last-child) {
+            &::after {
+                content: ', ';
+            }
+        }
+    }
+}

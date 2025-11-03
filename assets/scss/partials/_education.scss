@@ -1,0 +1,25 @@
+.education {
+    margin-bottom: 1em;
+
+    .education-title {
+        font-weight: 500;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .education-date {
+        display: flex;
+        gap: 5px;
+    }
+
+    .education-date {
+        font-size: .85em;
+    }
+
+    .education-provider {
+        font-size: .9em;
+    }
+}

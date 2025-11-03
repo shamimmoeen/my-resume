@@ -1,0 +1,35 @@
+# Node modules (heavy dependencies)
+node_modules/
+
+# OS / System files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sass sourcemaps (auto-generated)
+*.map
+
+# Puppeteer (if Chromium is downloaded locally)
+.puppeteer/
+
+# Build caches (optional, not critical)
+.cache/
+gulp-cache/
+
+# Editor configs
+.vscode/
+.idea/
+
+# Temp / backup files
+*.swp
+*.swo
+*.tmp
+*~
+
+# Optional build output folder (keep commented unless you actually add one)
+# dist/
+# build/
