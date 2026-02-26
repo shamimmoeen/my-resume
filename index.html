@@ -67,12 +67,12 @@
         }
 
         /* Keep headings with their content */
-        /* h1,
+        h1,
         h2,
         h3 {
           break-after: avoid-page;
           page-break-after: avoid;
-        } */
+        }
 
         /* Keep each block together when possible */
         /* .employment,
@@ -87,6 +87,11 @@
         /* Avoid splitting bullet items */
         /* ul, */
         li {
+          break-inside: avoid;
+          page-break-inside: avoid;
+        }
+
+        .projects {
           break-inside: avoid;
           page-break-inside: avoid;
         }
@@ -166,7 +171,11 @@
           <div class="employment-description">
             <ul>
               <li>
-                Developed new custom Gutenberg blocks using ACF Pro and performed bug fixes and improvements on existing blocks.
+                Developed custom Gutenberg blocks using ACF Pro and performed bug fixes and improvements for existing block-based themes.
+              </li>
+
+              <li>
+                Built a custom 2FA security plugin from scratch and maintained a mix of in-house and third-party plugins, handling feature updates, bug fixes, and refactoring to address PHP deprecations.
               </li>
 
               <li>
@@ -174,11 +183,7 @@
               </li>
 
               <li>
-                Built a custom 2FA security plugin from scratch and refactored existing codebases to improve maintainability and performance.
-              </li>
-
-              <li>
-                Performed technical reviews of third-party plugins to identify performance and security issues before integration into large-scale Multisite networks.
+                Performed technical reviews of third-party plugins to identify performance and security issues and applied patches where necessary before integration into large-scale Multisite networks.
               </li>
 
               <li>
@@ -190,7 +195,7 @@
               </li>
 
               <li>
-                Set up client repositories in Bitbucket, configuring webhooks and SSH keys for automated AWS deployments. Used task runners for asset generation and Pipelines to manage theme and plugin updates and apply patches.
+                Set up client repositories in Bitbucket, configuring webhooks and SSH keys for automated AWS deployments. Used Pipelines to manage theme and plugin updates and apply patches.
               </li>
             </ul>
           </div>
@@ -221,7 +226,7 @@
               </li>
 
               <li>
-                Refactored the legacy codebase using PHP namespaces and classes to make it easier to maintain over the long term.
+                Refactored legacy codebases using OOP principles, namespaces, autoloading, and traits to improve maintainability and ensure the plugin remained scalable as features grew.
               </li>
 
               <li>
@@ -319,22 +324,45 @@
 
       <div class="section skills">
         <h2>Skills</h2>
-        <div>
-          <span>PHP</span>
-          <span>CSS/SASS</span>
-          <span>HTML</span>
+
+        <p>
+          <b>Core Development:</b>
+          <span>PHP (OOP, Namespaces, Autoloading, Traits, Interfaces)</span>
+          <span>JavaScript (ES6+, jQuery)</span>
           <span>MySQL</span>
-          <span>JavaScript - ES6</span>
-          <span>jQuery</span>
+          <span>HTML5</span>
+          <span>CSS3/SASS</span>
+        </p>
+
+        <p>
+          <b>WordPress Expertise:</b>
+          <span>Gutenberg Block Development</span>
+          <span>WordPress Multisite</span>
+          <span>WooCommerce</span>
+          <span>Easy Digital Downloads</span>
+          <span>Accessibility (WCAG)</span>
+        </p>
+
+        <p>
+          <b>Frontend & Integrations:</b>
           <span>React</span>
-          <span>Redux</span>
-          <span>TypeScript</span>
-          <span>Git</span>
-          <span>Gutenberg</span>
+          <span>REST API</span>
+          <span>Stripe</span>
+          <span>PayPal</span>
+        </p>
+
+        <p>
+          <b>DevOps & Quality:</b>
+          <span>Git/GitHub</span>
+          <span>CI/CD (GitHub Actions, Bitbucket Pipelines)</span>
+          <span>Docker</span>
+          <span>Gulp</span>
+          <span>Webpack</span>
+          <span>Composer</span>
+          <span>NPM</span>
           <span>PHPUnit</span>
           <span>Jest</span>
-          <span>CI/CD</span>
-        </div>
+        </p>
       </div>
 
       <div class="section projects">

@@ -65,8 +65,15 @@
   font-size: 1.3em;
 }
 
+.skills b,
 .skills span {
   font-size: 0.85em;
+}
+.skills b {
+  font-weight: 500;
+}
+.skills p {
+  margin-block: 0.25em;
 }
 .skills span:not(:last-child)::after {
   content: ", ";
