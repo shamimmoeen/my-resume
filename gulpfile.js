@@ -27,7 +27,7 @@ function serve() {
 // Compile sass into CSS with sourcemaps
 function sassTask() {
   return gulp
-    .src(src.scss)
+    .src("assets/scss/style.scss")
     .pipe(sourcemaps.init())
     .pipe(sass().on("error", sass.logError))
     .pipe(sourcemaps.write("."))
@@ -38,7 +38,7 @@ function sassTask() {
 // Optimize CSS for production
 function buildCss() {
   return gulp
-    .src(src.css + "/*.css")
+    .src(src.css + "/style.css")
     .pipe(cleanCss())
     .pipe(rename({ suffix: ".min" }))
     .pipe(gulp.dest(src.css));
