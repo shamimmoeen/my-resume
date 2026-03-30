@@ -1,22 +1,10 @@
 .skills {
-    b,
-    span {
+    p {
         font-size: .85em;
+        margin-block: 0.4em;
     }
 
     b {
         font-weight: 500;
-    }
-
-    p {
-        margin-block: 0.25em;
-    }
-
-    span {
-        &:not(:last-child) {
-            &::after {
-                content: ', ';
-            }
-        }
     }
 }

@@ -5,9 +5,11 @@ const pdfMargin = 30;
 (async () => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  await page.goto("https://myresume.test/"); // Replace with your HTML file path
+
+  await page.goto("http://my-resume.local/", { waitUntil: "networkidle0" });
+
   await page.pdf({
-    path: "myresume.pdf",
+    path: "Mainul-Hassan-Resume.pdf",
     format: "A4",
     margin: {
       top: pdfMargin,
@@ -15,7 +17,9 @@ const pdfMargin = 30;
       bottom: pdfMargin,
       right: pdfMargin,
     },
-  }); // Adjust format as needed
+  });
 
   await browser.close();
+
+  console.log("Generated: Mainul-Hassan-Resume.pdf");
 })();
