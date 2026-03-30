@@ -1,6 +1,6 @@
 {
   "name": "my-resume",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "gulpfile.js",
   "dependencies": {
@@ -16,8 +16,10 @@
     "puppeteer": "^22.7.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "gulp",
+    "build": "gulp build",
+    "generate": "node generate.js"
   },
-  "author": "Mainul Hassan Main",
+  "author": "Mainul Hassan",
   "license": "ISC"
 }
