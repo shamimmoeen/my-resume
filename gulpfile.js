@@ -19,7 +19,7 @@ function serve() {
     open: false,
   });
 
-  gulp.watch(src.scss, sassTask);
+  gulp.watch(src.scss, gulp.series(sassTask, buildCss));
   gulp.watch(src.js).on("change", browserSync.reload); // Watch JavaScript changes
   gulp.watch(src.html).on("change", browserSync.reload);
 }

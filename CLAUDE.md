@@ -21,6 +21,6 @@ Static single-page resume site. No JavaScript framework — pure HTML/SCSS.
 
 **Resume sections** correspond directly to their SCSS partial names. When editing the visual styling of a section, find the matching partial.
 
-**PDF/print:** `index.html` includes `@media print` and `@page` rules for A4 formatting. The compiled CSS (`style.css`, not `.min.css`) is what `index.html` links to for dev; `generate.js` renders the page via Puppeteer to produce the PDF.
+**PDF/print:** `index.html` includes `@media print` and `@page` rules for A4 formatting. `generate.js` renders the page via Puppeteer to produce the PDF.
 
 **Code style:** Prettier — 2-space indent, 80-char print width (see `.prettierrc`).
