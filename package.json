@@ -18,7 +18,7 @@
   "scripts": {
     "dev": "gulp",
     "build": "gulp build",
-    "generate": "node generate.js"
+    "pdf": "node generate.js"
   },
   "author": "Mainul Hassan",
   "license": "ISC"

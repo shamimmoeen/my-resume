@@ -7,7 +7,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ```bash
 npm run dev       # dev server with live reload at http://localhost:3000
 npm run build     # compile + minify SCSS → assets/css/style.min.css
-npm run generate  # generate Mainul-Hassan-Resume.pdf via Puppeteer
+npm run pdf       # generate Mainul-Hassan-Resume.pdf via Puppeteer
 ```
 
 ## Architecture

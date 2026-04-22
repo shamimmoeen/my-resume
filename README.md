@@ -10,5 +10,5 @@ Personal resume built with HTML, SCSS, and Gulp. Includes a PDF export via Puppe
 npm install
 npm run dev       # dev server with live reload at http://localhost:3000
 npm run build     # compile + minify CSS
-npm run generate  # regenerate Mainul-Hassan-Resume.pdf
+npm run pdf       # regenerate Mainul-Hassan-Resume.pdf
 ```

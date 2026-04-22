@@ -31,6 +31,7 @@
 .experience .employment .row {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 .experience .employment .employment-date {
   display: flex;
@@ -103,6 +104,7 @@
 .certificate .row {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 .certificate .certificate-completion {
   font-size: 0.85em;
@@ -120,6 +122,7 @@
 .education .row {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 .education .education-date {
   display: flex;

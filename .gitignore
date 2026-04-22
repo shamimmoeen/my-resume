@@ -10,6 +10,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Generated PDF (regenerate with: npm run pdf)
+Mainul-Hassan-Resume.pdf
+
 # Sass sourcemaps (auto-generated)
 *.map
 
